@@ -24,21 +24,3 @@ const app = !getApps().length ? initializeApp(firebaseConfig) : getApp();
 
 export const auth = getAuth(app);
 export const db = getFirestore(app);
-
-
-
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
-// const firebaseConfig = {
-//   apiKey: "AIzaSyAXbVn8TFJaaJUo-HotyIssrHkQEGP53dU",
-//   authDomain: "mockmuse-80e1d.firebaseapp.com",
-//   projectId: "mockmuse-80e1d",
-//   storageBucket: "mockmuse-80e1d.firebasestorage.app",
-//   messagingSenderId: "127666618100",
-//   appId: "1:127666618100:web:b4edc3db796f96734668a1",
-//   measurementId: "G-T2DRY5B3BM"
-// };
-
-// // Initialize Firebase
-// const app = initializeApp(firebaseConfig);
-// const analytics = getAnalytics(app);
