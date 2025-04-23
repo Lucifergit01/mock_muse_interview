@@ -1,8 +1,6 @@
 <div align="center">
   <br />
-    <a href="https://www.youtube.com/watch?v=8GK8R77Bd7g" target="_blank">
-      <img src="https://github.com/user-attachments/assets/1c0131c7-9f2d-4e3b-b47c-9679e76d8f9a" alt="Project Banner">
-    </a>
+    <img src="https://github.com/user-attachments/assets/1c0131c7-9f2d-4e3b-b47c-9679e76d8f9a" alt="Project Banner">
   <br />
   
   <div>
@@ -12,40 +10,40 @@
     <img src="https://img.shields.io/badge/-Firebase-black?style=for-the-badge&logoColor=white&logo=firebase&color=DD2C00" alt="firebase" />
   </div>
 
-  <h3 align="center">Prepwise: A job interview preparation platform powered by Vapi AI Voice agents</h3>
+  <h3 align="center">Mock Muse: A job interview preparation platform powered by Vapi AI Voice agents</h3>
 
    <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
+     Build this project step by step with our detailed tutorial on JavaScript Mastery YouTube. Join the JSM family!
     </div>
 </div>
 
-## 📋 <a name="table">Table of Contents</a>
+## 📋 Table of Contents
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🕸️ [Snippets (Code to Copy)](#snippets)
-6. 🔗 [Assets](#links)
-7. 🚀 [More](#more)
+1. 🤖 Introduction
+2. ⚙️ Tech Stack
+3. 🔋 Features
+4. 🤸 Quick Start
+5. 🕸️ Snippets (Code to Copy)
+6. 🔗 Assets
+7. 🚀 More
 
 ## 🚨 Tutorial
 
-This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>.
+This repository contains the code corresponding to an in-depth tutorial available on our YouTube channel, JavaScript Mastery.
 
 If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
 
-<a href="https://www.youtube.com/watch?v=8GK8R77Bd7g" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
+<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" />
 
-## <a name="introduction">🤖 Introduction</a>
+## 🤖 Introduction
 
-Built with Next.js for the user interface and backend logic, Firebase for authentication and data storage, styled with TailwindCSS and using Vapi's voice agents, Prepwise is a website project designed to help you learn integrating AI models with your apps. The platform offers a sleek and modern experience for job interview preparation.
+Built with Next.js for the user interface and backend logic, Firebase for authentication and data storage, styled with TailwindCSS and using Vapi's voice agents, Mock Muse is a website project designed to help you learn integrating AI models with your apps. The platform offers a sleek and modern experience for job interview preparation.
 
 If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+<img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" />
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+## ⚙️ Tech Stack
 
 - Next.js
 - Firebase
@@ -55,7 +53,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 - Google Gemeni
 - Zod
 
-## <a name="features">🔋 Features</a>
+## 🔋 Features
 
 👉 **Authentication**: Sign Up and Sign In using password/email authentication handled by Firebase.
 
@@ -73,7 +71,7 @@ If you're getting started and need assistance or face any bugs, join our active 
 
 and many more, including code architecture and reusability
 
-## <a name="quick-start">🤸 Quick Start</a>
+## 🤸 Quick Start
 
 Follow these steps to set up the project locally on your machine.
 
@@ -81,9 +79,9 @@ Follow these steps to set up the project locally on your machine.
 
 Make sure you have the following installed on your machine:
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+- Git
+- Node.js
+- npm (Node Package Manager)
 
 **Cloning the Repository**
 
@@ -124,7 +122,7 @@ FIREBASE_CLIENT_EMAIL=
 FIREBASE_PRIVATE_KEY=
 ```
 
-Replace the placeholder values with your actual **[Firebase](https://firebase.google.com/)**, **[Vapi](https://vapi.ai/?utm_source=youtube&utm_medium=video&utm_campaign=jsmastery_recruitingpractice&utm_content=paid_partner&utm_term=recruitingpractice)** credentials.
+Replace the placeholder values with your actual Firebase and Vapi credentials.
 
 **Running the Project**
 
@@ -132,9 +130,9 @@ Replace the placeholder values with your actual **[Firebase](https://firebase.go
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+Open http://localhost:3000 in your browser to view the project.
 
-## <a name="snippets">🕸️ Snippets</a>
+## 🕸️ Snippets
 
 <details>
 <summary><code>globals.css</code></summary>
@@ -581,93 +579,90 @@ system:
 <summary><code>Display feedback (app/(root)/interview/[id]/feedback/page.tsx):</code></summary>
 
 ```javascript
-    <section className="section-feedback">
-      <div className="flex flex-row justify-center">
-        <h1 className="text-4xl font-semibold">
-          Feedback on the Interview -{" "}
-          <span className="capitalize">{interview.role}</span> Interview
-        </h1>
+<section className="section-feedback">
+  <div className="flex flex-row justify-center">
+    <h1 className="text-4xl font-semibold">
+      Feedback on the Interview -{" "}
+      <span className="capitalize">{interview.role}</span> Interview
+    </h1>
+  </div>
+
+  <div className="flex flex-row justify-center">
+    <div className="flex flex-row gap-5">
+      <div className="flex flex-row gap-2 items-center">
+        <Image src="/star.svg" width={22} height={22} alt="star" />
+        <p>
+          Overall Impression:{" "}
+          <span className="text-primary-200 font-bold">
+            {feedback?.totalScore}
+          </span>
+          /100
+        </p>
       </div>
 
-      <div className="flex flex-row justify-center">
-        <div className="flex flex-row gap-5">
-          <div className="flex flex-row gap-2 items-center">
-            <Image src="/star.svg" width={22} height={22} alt="star" />
-            <p>
-              Overall Impression:{" "}
-              <span className="text-primary-200 font-bold">
-                {feedback?.totalScore}
-              </span>
-              /100
-            </p>
-          </div>
-
-          <div className="flex flex-row gap-2">
-            <Image src="/calendar.svg" width={22} height={22} alt="calendar" />
-            <p>
-              {feedback?.createdAt
-                ? dayjs(feedback.createdAt).format("MMM D, YYYY h:mm A")
-                : "N/A"}
-            </p>
-          </div>
-        </div>
+      <div className="flex flex-row gap-2">
+        <Image src="/calendar.svg" width={22} height={22} alt="calendar" />
+        <p>
+          {feedback?.createdAt
+            ? dayjs(feedback.createdAt).format("MMM D, YYYY h:mm A")
+            : "N/A"}
+        </p>
       </div>
+    </div>
+  </div>
 
-      <hr />
+  <hr />
 
-      <p>{feedback?.finalAssessment}</p>
+  <p>{feedback?.finalAssessment}</p>
 
-      <div className="flex flex-col gap-4">
-        <h2>Breakdown of the Interview:</h2>
-        {feedback?.categoryScores?.map((category, index) => (
-          <div key={index}>
-            <p className="font-bold">
-              {index + 1}. {category.name} ({category.score}/100)
-            </p>
-            <p>{category.comment}</p>
-          </div>
-        ))}
+  <div className="flex flex-col gap-4">
+    <h2>Breakdown of the Interview:</h2>
+    {feedback?.categoryScores?.map((category, index) => (
+      <div key={index}>
+        <p className="font-bold">
+          {index + 1}. {category.name} ({category.score}/100)
+        </p>
+        <p>{category.comment}</p>
       </div>
+    ))}
+  </div>
 
-      <div className="flex flex-col gap-3">
-        <h3>Strengths</h3>
-        <ul>
-          {feedback?.strengths?.map((strength, index) => (
-            <li key={index}>{strength}</li>
-          ))}
-        </ul>
-      </div>
+  <div className="flex flex-col gap-3">
+    <h3>Strengths</h3>
+    <ul>
+      {feedback?.strengths?.map((strength, index) => (
+        <li key={index}>{strength}</li>
+      ))}
+    </ul>
+  </div>
 
-      <div className="flex flex-col gap-3">
-        <h3>Areas for Improvement</h3>
-        <ul>
-          {feedback?.areasForImprovement?.map((area, index) => (
-            <li key={index}>{area}</li>
-          ))}
-        </ul>
-      </div>
+  <div className="flex flex-col gap-3">
+    <h3>Areas for Improvement</h3>
+    <ul>
+      {feedback?.areasForImprovement?.map((area, index) => (
+        <li key={index}>{area}</li>
+      ))}
+    </ul>
+  </div>
 
-      <div className="buttons">
-        <Button className="btn-secondary flex-1">
-          <Link href="/" className="flex w-full justify-center">
-            <p className="text-sm font-semibold text-primary-200 text-center">
-              Back to dashboard
-            </p>
-          </Link>
-        </Button>
+  <div className="buttons">
+    <Button className="btn-secondary flex-1">
+      <Link href="/" className="flex w-full justify-center">
+        <p className="text-sm font-semibold text-primary-200 text-center">
+          Back to dashboard
+        </p>
+      </Link>
+    </Button>
 
-        <Button className="btn-primary flex-1">
-          <Link
-            href={`/interview/${id}`}
-            className="flex w-full justify-center"
-          >
-            <p className="text-sm font-semibold text-black text-center">
-              Retake Interview
-            </p>
-          </Link>
-        </Button>
-      </div>
-    </section>
+    <Button className="btn-primary flex-1">
+      <Link href={`/interview/${id}`} className="flex w-full justify-center">
+        <p className="text-sm font-semibold text-black text-center">
+          Retake Interview
+        </p>
+      </Link>
+    </Button>
+  </div>
+</section>
 ```
 
 </details>
@@ -704,18 +699,15 @@ export const dummyInterviews: Interview[] = [
 
 </details>
 
+## 🔗 Assets
 
-## <a name="links">🔗 Assets</a>
+Public assets used in the project can be found in the project's assets folder.
 
-Public assets used in the project can be found [here](https://drive.google.com/drive/folders/1DuQ9bHH3D3ZAN_CFKfBgsaB8DEhEdnog?usp=sharing)
-
-## <a name="more">🚀 More</a>
+## 🚀 More
 
 **Advance your skills with Next.js Pro Course**
 
 Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
 detailed explanations, cool features, and exercises to boost your skills. Give it a go!
 
-<a href="https://jsmastery.pro/next15" target="_blank">
-   <img src="https://github.com/user-attachments/assets/b8760e69-1f81-4a71-9108-ceeb1de36741" alt="Project Banner">
-</a>
+<img src="https://github.com/user-attachments/assets/b8760e69-1f81-4a71-9108-ceeb1de36741" alt="Project Banner">
